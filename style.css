@@ -3,7 +3,7 @@ body{
 }
 
 #container{
-    min-height: 800px;
+    min-height: 400px;
     position: relative;
 }
 
@@ -21,4 +21,10 @@ body{
     transform: translate(-50%, -50%);
     opacity: 0.5;
     box-shadow: 0 0 15px white;
+}
+
+@media only screen and (min-width: 414px){
+    clock{
+        width: 100px;
+    }
 }
